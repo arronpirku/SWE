@@ -8,9 +8,9 @@
     <description>Java class library to estimate the nationality of a person based on a last name.</description>
     <developers>
         <developer>
-            <id>L651AV</id>
-            <name>ARTIN AHMETI</name>
-            <email>artin.ahmeti10@gmail.com</email>
+            <id>MT94J3</id>
+            <name>Arron Pirku</name>
+            <email>arronpirku@gmail.com</email>
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
         </developer>
@@ -34,6 +34,12 @@
             <version>3.14.0</version>
             <scope>compile</scope>
     </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
